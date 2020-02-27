@@ -109,7 +109,7 @@ def movies_with_directors_set(source)
   
   movie =[]
   index =0
-  while index <source.size do
+  while index <source.length do
 
     director_name = source[index][:name]
     movizz= source[index][:movies]
